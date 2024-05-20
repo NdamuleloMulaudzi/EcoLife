@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  color: #34c759, #f7f7f7;
+  font-family: serif, sans-serif;
+}
+
+.container {
+  margin: 20px;
+}
+
+header {
+  text-align: center;
+}
+nav {
+  float: right;
+}
+nav > a {
+  text-decoration: none;
+  padding-left: 20px;
+}
