@@ -1,20 +1,31 @@
 body {
   margin: 0;
-  color: #34c759, #f7f7f7;
+  background-color: #f7f7f7;
   font-family: serif, sans-serif;
+
+  .container {
+    margin: 2px;
+  }
+
+  header {
+    display: flex;
+    margin-left: 50%;
+  }
+
+  #hero {
+    background-image: url("./images/navi-MGSdS-gXpoc-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
 }
 
-.container {
-  margin: 20px;
+.leaf-icon {
+  width: 90px;
 }
 
-header {
-  text-align: center;
-}
-nav {
-  float: right;
-}
 nav > a {
   text-decoration: none;
   padding-left: 20px;
+  color: #34c759;
 }
