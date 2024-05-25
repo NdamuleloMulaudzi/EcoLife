@@ -81,7 +81,35 @@ nav > a {
 #about {
   background-color: #ddebf8;
   color: #393e46;
+  display: flex;
+  padding: 20px;
+  margin: 100px auto;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.about-image {
+  border: 1px solid #9ed322;
+  border-radius: 9px;
+}
+
+.about-contents {
+  margin-left: 20px;
+  margin-top: 3%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-contents > p {
+  font-weight: 400;
+  border: 2px solid #83e278;
+  border-radius: 5px;
+  padding: 15px;
   text-align: center;
+}
+
+.about-contents > h4 {
+  text-align: center;
+  justify-content: flex-start;
 }
 
 #features {
