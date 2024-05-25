@@ -91,6 +91,7 @@ nav > a {
 .about-image {
   border: 1px solid #9ed322;
   border-radius: 9px;
+  width: 200px;
 }
 
 .about-contents {
@@ -116,14 +117,60 @@ nav > a {
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  justify-content: space-around;
+  background-color: #ddebf8;
+  color: #393e46;
+  height: 90vh;
+  padding-top: 20px;
+  border-radius: 20px;
 }
 
-.feature-image {
-  width: 200px;
+.feature-image1 {
+  width: 400px;
+}
+
+.feature-image2 {
+  width: 360px;
+}
+
+.vl {
+  background-color: #34c759;
+  height: 25rem;
+  width: 20px;
+  margin-left: 30px;
 }
 
 #callToAction {
+  position: relative;
+  top: -40px;
   display: flex;
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.join-btn {
+  cursor: pointer;
+  border: 2px solid #787a75;
+  background-color: transparent;
+  border-radius: 9px;
+  font-size: large;
+  color: #787a75;
+}
+.donate-btn {
+  cursor: pointer;
+  border: 2px solid #696b65;
+  background-color: transparent;
+  border-radius: 9px;
+  font-size: large;
+  color: #696b65;
+}
+.volunteer-btn {
+  cursor: pointer;
+  border: 2px solid #787a75;
+  background-color: transparent;
+  border-radius: 9px;
+  font-size: large;
+  color: #787a75;
 }
